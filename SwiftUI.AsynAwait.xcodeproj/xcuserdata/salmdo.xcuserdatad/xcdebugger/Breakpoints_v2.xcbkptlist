@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0333999F-1717-4C2E-BC28-0AFB96CF9341"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EEE95E3B-A703-4EFD-AE86-5A7CD7E952B8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUI.AsynAwait/MVVMPattern/CurrentDateListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "populateDates()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "EEE95E3B-A703-4EFD-AE86-5A7CD7E952B8 - 21f11303166677dd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for SwiftUI_AsynAwait.CurrentDateListViewModel.populateDates() async -&gt; ()"
+                  moduleName = "SwiftUI.AsynAwait"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/salmdo/Desktop/IOSSalmdo/SwiftUI.AsynAwait/SwiftUI.AsynAwait/MVVMPattern/CurrentDateListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "EEE95E3B-A703-4EFD-AE86-5A7CD7E952B8 - f6e234f794533a85"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;SwiftUI_AsynAwait.User&gt;, SwiftUI_AsynAwait.NetworkError&gt;) -&gt; () in SwiftUI_AsynAwait.CurrentDateListViewModel.populateDates() async -&gt; ()"
+                  moduleName = "SwiftUI.AsynAwait"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/salmdo/Desktop/IOSSalmdo/SwiftUI.AsynAwait/SwiftUI.AsynAwait/MVVMPattern/CurrentDateListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

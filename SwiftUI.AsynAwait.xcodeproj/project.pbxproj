@@ -11,6 +11,14 @@
 		141C001F2A19C22000542229 /* CurrentDateListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141C001E2A19C22000542229 /* CurrentDateListViewModel.swift */; };
 		141C00212A19C30800542229 /* CurrentDateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141C00202A19C30800542229 /* CurrentDateListView.swift */; };
 		141C00232A19C46C00542229 /* CurrentDateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141C00222A19C46C00542229 /* CurrentDateViewModel.swift */; };
+		141C00262A1A33A000542229 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141C00252A1A33A000542229 /* UserService.swift */; };
+		141C00282A1A33AD00542229 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141C00272A1A33AD00542229 /* User.swift */; };
+		141C002A2A1A347700542229 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141C00292A1A347700542229 /* NetworkError.swift */; };
+		141C002C2A1A37D000542229 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141C002B2A1A37D000542229 /* UserViewModel.swift */; };
+		141C002E2A1A389000542229 /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141C002D2A1A389000542229 /* UserListViewModel.swift */; };
+		141C00342A1A39FB00542229 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141C00332A1A39FB00542229 /* UserListView.swift */; };
+		141C00362A1A3AA200542229 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141C00352A1A3AA200542229 /* UserView.swift */; };
+		141C00382A1A3CCE00542229 /* UserContinuationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141C00372A1A3CCE00542229 /* UserContinuationService.swift */; };
 		14D064E12A18E9820040D357 /* SwiftUI_AsynAwaitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D064E02A18E9820040D357 /* SwiftUI_AsynAwaitApp.swift */; };
 		14D064E32A18E9820040D357 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D064E22A18E9820040D357 /* ContentView.swift */; };
 		14D064E52A18E9820040D357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D064E42A18E9820040D357 /* Assets.xcassets */; };
@@ -23,6 +31,14 @@
 		141C001E2A19C22000542229 /* CurrentDateListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentDateListViewModel.swift; sourceTree = "<group>"; };
 		141C00202A19C30800542229 /* CurrentDateListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentDateListView.swift; sourceTree = "<group>"; };
 		141C00222A19C46C00542229 /* CurrentDateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentDateViewModel.swift; sourceTree = "<group>"; };
+		141C00252A1A33A000542229 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		141C00272A1A33AD00542229 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		141C00292A1A347700542229 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		141C002B2A1A37D000542229 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		141C002D2A1A389000542229 /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
+		141C00332A1A39FB00542229 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		141C00352A1A3AA200542229 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		141C00372A1A3CCE00542229 /* UserContinuationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserContinuationService.swift; sourceTree = "<group>"; };
 		14D064DD2A18E9820040D357 /* SwiftUI.AsynAwait.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI.AsynAwait.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14D064E02A18E9820040D357 /* SwiftUI_AsynAwaitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_AsynAwaitApp.swift; sourceTree = "<group>"; };
 		14D064E22A18E9820040D357 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +77,53 @@
 			path = MVVMPattern;
 			sourceTree = "<group>";
 		};
+		141C00242A1A337D00542229 /* UseContinuation */ = {
+			isa = PBXGroup;
+			children = (
+				141C00302A1A38A000542229 /* Model */,
+				141C00322A1A39EB00542229 /* View */,
+				141C002F2A1A389400542229 /* ViewModel */,
+				141C00312A1A38A900542229 /* Service */,
+			);
+			path = UseContinuation;
+			sourceTree = "<group>";
+		};
+		141C002F2A1A389400542229 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				141C002B2A1A37D000542229 /* UserViewModel.swift */,
+				141C002D2A1A389000542229 /* UserListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		141C00302A1A38A000542229 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				141C00272A1A33AD00542229 /* User.swift */,
+				141C00292A1A347700542229 /* NetworkError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		141C00312A1A38A900542229 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				141C00252A1A33A000542229 /* UserService.swift */,
+				141C00372A1A3CCE00542229 /* UserContinuationService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		141C00322A1A39EB00542229 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				141C00332A1A39FB00542229 /* UserListView.swift */,
+				141C00352A1A3AA200542229 /* UserView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		14D064D42A18E9820040D357 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +143,7 @@
 		14D064DF2A18E9820040D357 /* SwiftUI.AsynAwait */ = {
 			isa = PBXGroup;
 			children = (
+				141C00242A1A337D00542229 /* UseContinuation */,
 				141C001C2A19C1B200542229 /* MVVMPattern */,
 				141C00192A19C18600542229 /* NoDesignPattern */,
 				14D064E02A18E9820040D357 /* SwiftUI_AsynAwaitApp.swift */,
@@ -169,12 +233,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				14D064EF2A18E9C10040D357 /* DateListNoneDesignPattern.swift in Sources */,
+				141C002E2A1A389000542229 /* UserListViewModel.swift in Sources */,
+				141C002C2A1A37D000542229 /* UserViewModel.swift in Sources */,
 				14D064E32A18E9820040D357 /* ContentView.swift in Sources */,
 				141C001B2A19C1AB00542229 /* Webservice.swift in Sources */,
 				141C001F2A19C22000542229 /* CurrentDateListViewModel.swift in Sources */,
+				141C00262A1A33A000542229 /* UserService.swift in Sources */,
 				141C00212A19C30800542229 /* CurrentDateListView.swift in Sources */,
+				141C00282A1A33AD00542229 /* User.swift in Sources */,
 				14D064E12A18E9820040D357 /* SwiftUI_AsynAwaitApp.swift in Sources */,
+				141C00382A1A3CCE00542229 /* UserContinuationService.swift in Sources */,
 				141C00232A19C46C00542229 /* CurrentDateViewModel.swift in Sources */,
+				141C002A2A1A347700542229 /* NetworkError.swift in Sources */,
+				141C00342A1A39FB00542229 /* UserListView.swift in Sources */,
+				141C00362A1A3AA200542229 /* UserView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
