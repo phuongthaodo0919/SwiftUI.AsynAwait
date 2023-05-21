@@ -14,7 +14,7 @@ Task.init(operation: {
     await populateDates()
 })
 ```
-* Use ***Continuation*** to convert closure function to async/await function
+* Use ***Continuation*** to expose a closure function to an async/await function
 ```
 func getU() async throws -> [User] {
         return try await withCheckedThrowingContinuation({ continuation in
