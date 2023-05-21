@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		141C001B2A19C1AB00542229 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141C001A2A19C1AB00542229 /* Webservice.swift */; };
+		141C001F2A19C22000542229 /* CurrentDateListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141C001E2A19C22000542229 /* CurrentDateListViewModel.swift */; };
+		141C00212A19C30800542229 /* CurrentDateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141C00202A19C30800542229 /* CurrentDateListView.swift */; };
+		141C00232A19C46C00542229 /* CurrentDateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141C00222A19C46C00542229 /* CurrentDateViewModel.swift */; };
 		14D064E12A18E9820040D357 /* SwiftUI_AsynAwaitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D064E02A18E9820040D357 /* SwiftUI_AsynAwaitApp.swift */; };
 		14D064E32A18E9820040D357 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D064E22A18E9820040D357 /* ContentView.swift */; };
 		14D064E52A18E9820040D357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D064E42A18E9820040D357 /* Assets.xcassets */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		141C001A2A19C1AB00542229 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		141C001E2A19C22000542229 /* CurrentDateListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentDateListViewModel.swift; sourceTree = "<group>"; };
+		141C00202A19C30800542229 /* CurrentDateListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentDateListView.swift; sourceTree = "<group>"; };
+		141C00222A19C46C00542229 /* CurrentDateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentDateViewModel.swift; sourceTree = "<group>"; };
 		14D064DD2A18E9820040D357 /* SwiftUI.AsynAwait.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI.AsynAwait.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14D064E02A18E9820040D357 /* SwiftUI_AsynAwaitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_AsynAwaitApp.swift; sourceTree = "<group>"; };
 		14D064E22A18E9820040D357 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +42,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		141C00192A19C18600542229 /* NoDesignPattern */ = {
+			isa = PBXGroup;
+			children = (
+				14D064EE2A18E9C10040D357 /* DateListNoneDesignPattern.swift */,
+			);
+			path = NoDesignPattern;
+			sourceTree = "<group>";
+		};
+		141C001C2A19C1B200542229 /* MVVMPattern */ = {
+			isa = PBXGroup;
+			children = (
+				141C001A2A19C1AB00542229 /* Webservice.swift */,
+				141C001E2A19C22000542229 /* CurrentDateListViewModel.swift */,
+				141C00202A19C30800542229 /* CurrentDateListView.swift */,
+				141C00222A19C46C00542229 /* CurrentDateViewModel.swift */,
+			);
+			path = MVVMPattern;
+			sourceTree = "<group>";
+		};
 		14D064D42A18E9820040D357 = {
 			isa = PBXGroup;
 			children = (
@@ -53,9 +80,10 @@
 		14D064DF2A18E9820040D357 /* SwiftUI.AsynAwait */ = {
 			isa = PBXGroup;
 			children = (
+				141C001C2A19C1B200542229 /* MVVMPattern */,
+				141C00192A19C18600542229 /* NoDesignPattern */,
 				14D064E02A18E9820040D357 /* SwiftUI_AsynAwaitApp.swift */,
 				14D064E22A18E9820040D357 /* ContentView.swift */,
-				14D064EE2A18E9C10040D357 /* DateListNoneDesignPattern.swift */,
 				14D064E42A18E9820040D357 /* Assets.xcassets */,
 				14D064E62A18E9820040D357 /* Preview Content */,
 			);
@@ -142,7 +170,11 @@
 			files = (
 				14D064EF2A18E9C10040D357 /* DateListNoneDesignPattern.swift in Sources */,
 				14D064E32A18E9820040D357 /* ContentView.swift in Sources */,
+				141C001B2A19C1AB00542229 /* Webservice.swift in Sources */,
+				141C001F2A19C22000542229 /* CurrentDateListViewModel.swift in Sources */,
+				141C00212A19C30800542229 /* CurrentDateListView.swift in Sources */,
 				14D064E12A18E9820040D357 /* SwiftUI_AsynAwaitApp.swift in Sources */,
+				141C00232A19C46C00542229 /* CurrentDateViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
