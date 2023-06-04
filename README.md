@@ -29,4 +29,25 @@ func getU() async throws -> [User] {
         })
     }
 ```
+### Create custom modifier view
+1. Create View Modifier
+```
+struct CustomButtonModifier: ViewModifier { }
+```
+2. Apply the View Modifier by extend the View protocol
+```
+extension View {
+    func customButtonModifier(font: Font = .title) -> some View {
+        modifier(CustomButtonModifier(font: font))
+    }
+}
+```
+4. The View Modifier can be used in any views or other view modifiers
+```
+Text("Hello, I'm text field").customButtonModifier(font: .largeTitle)
+
+Button("Click me button") {
+  //Do something
+}.customButtonModifier(font: .caption)
+```
 
