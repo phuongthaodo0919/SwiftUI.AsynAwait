@@ -19,6 +19,8 @@
 		141C00342A1A39FB00542229 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141C00332A1A39FB00542229 /* UserListView.swift */; };
 		141C00362A1A3AA200542229 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141C00352A1A3AA200542229 /* UserView.swift */; };
 		141C00382A1A3CCE00542229 /* UserContinuationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141C00372A1A3CCE00542229 /* UserContinuationService.swift */; };
+		14B0BD5F2A2CBBB0007E8A11 /* CustomButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B0BD5E2A2CBBB0007E8A11 /* CustomButtonModifier.swift */; };
+		14B0BD612A2CBD2D007E8A11 /* UseCustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B0BD602A2CBD2D007E8A11 /* UseCustomButtonView.swift */; };
 		14D064E12A18E9820040D357 /* SwiftUI_AsynAwaitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D064E02A18E9820040D357 /* SwiftUI_AsynAwaitApp.swift */; };
 		14D064E32A18E9820040D357 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D064E22A18E9820040D357 /* ContentView.swift */; };
 		14D064E52A18E9820040D357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D064E42A18E9820040D357 /* Assets.xcassets */; };
@@ -39,6 +41,8 @@
 		141C00332A1A39FB00542229 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
 		141C00352A1A3AA200542229 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		141C00372A1A3CCE00542229 /* UserContinuationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserContinuationService.swift; sourceTree = "<group>"; };
+		14B0BD5E2A2CBBB0007E8A11 /* CustomButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonModifier.swift; sourceTree = "<group>"; };
+		14B0BD602A2CBD2D007E8A11 /* UseCustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCustomButtonView.swift; sourceTree = "<group>"; };
 		14D064DD2A18E9820040D357 /* SwiftUI.AsynAwait.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI.AsynAwait.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14D064E02A18E9820040D357 /* SwiftUI_AsynAwaitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_AsynAwaitApp.swift; sourceTree = "<group>"; };
 		14D064E22A18E9820040D357 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -124,6 +128,16 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		14B0BD5D2A2CBB80007E8A11 /* ViewModifier */ = {
+			isa = PBXGroup;
+			children = (
+				14B0BD5E2A2CBBB0007E8A11 /* CustomButtonModifier.swift */,
+				14B0BD602A2CBD2D007E8A11 /* UseCustomButtonView.swift */,
+			);
+			name = ViewModifier;
+			path = "ViewModifỉe";
+			sourceTree = "<group>";
+		};
 		14D064D42A18E9820040D357 = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +157,7 @@
 		14D064DF2A18E9820040D357 /* SwiftUI.AsynAwait */ = {
 			isa = PBXGroup;
 			children = (
+				14B0BD5D2A2CBB80007E8A11 /* ViewModifier */,
 				141C00242A1A337D00542229 /* UseContinuation */,
 				141C001C2A19C1B200542229 /* MVVMPattern */,
 				141C00192A19C18600542229 /* NoDesignPattern */,
@@ -242,7 +257,9 @@
 				141C00212A19C30800542229 /* CurrentDateListView.swift in Sources */,
 				141C00282A1A33AD00542229 /* User.swift in Sources */,
 				14D064E12A18E9820040D357 /* SwiftUI_AsynAwaitApp.swift in Sources */,
+				14B0BD612A2CBD2D007E8A11 /* UseCustomButtonView.swift in Sources */,
 				141C00382A1A3CCE00542229 /* UserContinuationService.swift in Sources */,
+				14B0BD5F2A2CBBB0007E8A11 /* CustomButtonModifier.swift in Sources */,
 				141C00232A19C46C00542229 /* CurrentDateViewModel.swift in Sources */,
 				141C002A2A1A347700542229 /* NetworkError.swift in Sources */,
 				141C00342A1A39FB00542229 /* UserListView.swift in Sources */,
